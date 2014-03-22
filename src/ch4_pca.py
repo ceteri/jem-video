@@ -1,8 +1,7 @@
 ## @JustGlowing 2011-07-22
 ## http://glowingpython.blogspot.com/2011/07/principal-component-analysis-with-numpy.html
 
-from numpy import mean,cov,double,cumsum,dot,linalg,array,rank
-from pylab import plot,subplot,axis,stem,show,figure
+import numpy as np
 
 def princomp (A):
     """
@@ -11,22 +10,24 @@ def princomp (A):
     """
 
     # subtract the mean (along columns)
-    M = (A-mean(A.T, axis=1)).T
+    M = (A - np.mean(A.T, axis=1)).T
 
-    # attention: not always sorted
-    [latent, coeff] = linalg.eig(cov(M))
+    # NB: results are not always sorted
+    [latent, coeff] = np.linalg.eig(np.cov(M))
 
     # projection of the data in the new space
-    score = dot(coeff.T, M) 
+    score = np.dot(coeff.T, M)
 
     return coeff, score, latent
 
 
-## compute the eigenvalues and eigenvectors of a covariance matrix
-
-A = array([[ 2.4, 0.7, 2.9, 2.2, 3.0, 2.7, 1.6, 1.1, 1.6, 0.9 ],
-           [ 2.5, 0.5, 2.2, 1.9, 3.1, 2.3, 2.0, 1.0, 1.5, 1.1 ]
-           ])
+## analyze each judge's scores for our bartendrs
+A = np.array([
+        [ 5.1, 4.9, 4.7, 4.6, 5.7, 5.7, 6.2, 5.1, 5.7, 6.5, 7.7, 7.7, 6.0, 6.9, 5.6 ],
+        [ 3.5, 3.0, 3.2, 3.1, 3.0, 2.9, 2.9, 2.5, 2.8, 3.0, 3.8, 2.6, 2.2, 3.2, 2.8 ],
+        [ 1.4, 1.4, 1.3, 1.5, 4.2, 4.2, 4.3, 3.0, 4.1, 5.5, 6.7, 6.9, 5.0, 5.7, 4.9 ],
+        [ 0.2, 0.2, 0.2, 0.2, 1.2, 1.3, 1.3, 1.1, 1.3, 1.8, 2.2, 2.3, 1.5, 2.3, 2.0 ],
+        ])
 
 coeff, score, latent = princomp(A.T)
 
@@ -34,7 +35,14 @@ print coeff
 print score
 print latent
 
+portion_variance = map(lambda x: x / sum(latent), latent)
+print portion_variance
+
+
 ## visualize the components
+from numpy import mean,cov,double,cumsum,dot,linalg,array,rank
+from pylab import plot,subplot,axis,stem,show,figure
+
 figure()
 subplot(121)
 

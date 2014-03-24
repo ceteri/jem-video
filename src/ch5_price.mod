@@ -1,4 +1,4 @@
-/* foobartendr.io  pricing.mod */
+/* foobartendr.io  ch5_price.mod */
 
 var x0 >= 0;
 var x1 >= 0;

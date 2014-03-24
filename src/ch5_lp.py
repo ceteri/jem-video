@@ -2,11 +2,11 @@ from glpk import LPX
 
 # set up to maximize the objective function
 lp = LPX()
-lp.name = 'example'
+lp.name = 'foobartendr'
 lp.obj.maximize = True
 
-# append 3 rows, named p, q, r
-row_names = ["p", "q", "r"]
+# append 3 rows
+row_names = ["ingrednt", "bartendr", "delivery"]
 lp.rows.add(len(row_names))
 
 for r in lp.rows:

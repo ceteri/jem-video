@@ -2,7 +2,7 @@
 import numpy as np
 import neurolab as nl
 
-# create a neural network with 2 inputs, 4 neurons
+# create a neural network with 3 inputs, 4 neurons
 # in the hidden layer, and 1 in the output layer
 net = nl.net.newff([[0, 1],[0, 1],[0, 1]], [4, 1])
 input = [[0, 0, 0], [0, 1, 0], [1, 0, 0], [1, 1, 0]]
@@ -10,7 +10,7 @@ target = [[0], [0], [1], [1]]
 
 # train
 net.trainf = nl.train.train_gdx
-error = net.train(input, target, show=25)
+error = net.train(input, target, show=10)
 
 # test
 print "expect 0", net.sim([[0, 1, 0]])

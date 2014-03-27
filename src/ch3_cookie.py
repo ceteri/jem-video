@@ -1,3 +1,6 @@
+## based on "Cookie" problem
+## http://www.greenteapress.com/thinkbayes/
+
 from thinkbayes import Pmf
 
 pmf = Pmf()

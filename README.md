@@ -3,8 +3,8 @@ This is a companion wiki + code repository for the O'Reilly Media video [Just En
 
   * [preview trailer](http://youtu.be/TQ58cWgdCpA) on YouTube
   * [webcast](http://www.oreilly.com/pub/e/3114): *Computational Thinking: Just Enough Math*
-  * [mailing list](http://liber118.com/pxn/)
-  * [web site](http://justenoughmath.com/)
+  * [newsletter sign-up](http://liber118.com/pxn/)
+  * [JEM web site](http://justenoughmath.com/)
 
 ---
 

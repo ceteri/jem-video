@@ -4,7 +4,9 @@ This is a companion wiki + code repository for the O'Reilly Media video [Just En
   * [preview trailer](http://youtu.be/TQ58cWgdCpA) on YouTube
   * [webcast](http://www.oreilly.com/pub/e/3114): *Computational Thinking: Just Enough Math*
   * [newsletter sign-up](http://liber118.com/pxn/)
-  * [JEM web site](http://justenoughmath.com/)
+  * [JEM web site](http://justenoughmath.com/) (this site)
+  * [LinkedIn group](https://www.linkedin.com/groups?gid=6725785)
+  * [Bay Area meetup group](http://www.meetup.com/Just-Enough-Math-Machine-Learning-for-Execs-Entrepreneurs/)
 
 ---
 

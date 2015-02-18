@@ -2,6 +2,7 @@
 This is a companion wiki + code repository for the O'Reilly Media video [Just Enough Math](http://www.oreilly.com/go/enough_math/) which provides additional links, sample code, and other addenda. 
 
   * [preview trailer](http://youtu.be/TQ58cWgdCpA) on YouTube
+  * [Docker container](https://registry.hub.docker.com/u/ceteri/jem/) for [IPython notebooks](https://github.com/ceteri/jem-docker)
   * [webcast](http://www.oreilly.com/pub/e/3114): *Computational Thinking: Just Enough Math*
   * [newsletter sign-up](http://liber118.com/pxn/)
   * [JEM web site](http://justenoughmath.com/) (this site)

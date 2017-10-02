@@ -2,19 +2,19 @@
 This is a companion wiki + code repository for the O'Reilly Media video [Just Enough Math](http://www.oreilly.com/go/enough_math/) which provides additional links, sample code, and other addenda. 
 
   * [preview trailer](http://youtu.be/TQ58cWgdCpA) on YouTube
-  * [Docker container](https://registry.hub.docker.com/u/ceteri/jem/) for [IPython notebooks](https://github.com/ceteri/jem-docker)
+  * [Jupyter notebooks with hands-on exercises from the video](https://github.com/ceteri/jem-docker/tree/master/notebook)
+  * [Docker container](https://registry.hub.docker.com/u/ceteri/jem/)
+  * [news, updates, conf reviews, etc.](http://liber118.com/pxn/)
   * [webcast](http://www.oreilly.com/pub/e/3114): *Computational Thinking: Just Enough Math*
-  * [newsletter sign-up](http://liber118.com/pxn/)
   * [JEM web site](http://justenoughmath.com/) (this site)
   * [LinkedIn group](https://www.linkedin.com/groups?gid=6725785)
-  * [Bay Area meetup group](http://www.meetup.com/Just-Enough-Math-Machine-Learning-for-Execs-Entrepreneurs/)
 
 ---
 
 With the commercial successes of machine learning and cloud computing,
 many business people need just enough math to take advantage of open source frameworks for big data. 
-This course from [Paco Nathan](https://twitter.com/pacoid) and [Allen Day](https://twitter.com/allenday)
-presents useful areas of advanced math in easy-to-digest morsels.
+This course from [Paco Nathan](https://twitter.com/pacoid) presents useful areas of advanced math in
+easy-to-digest morsels.
 If you’re familiar with high school Algebra 2 and basic statistics, you’re good to go.
 
 You’ll learn newly introduced math concepts through business use cases, brief Python code examples, 
@@ -62,10 +62,14 @@ Some external sites that also get referenced in the examples include:
 Part of the intended purpose for this video+book+tutorial series of material is to provide many links to other resources.
 The interested reader has plenty of "jumping" points from which to explore particular topics in depth:
 
-  * [Big Data](http://manning.com/marz/); Nathan Marz, James Warren; Manning (2014)
-  * [Building Data Science Teams](http://oreilly.com/data/free/building-data-science-teams.csp); DJ Patil; O’Reilly Media (2011)
-  * [Analyzing the Analyzers](http://oreilly.com/data/free/analyzing-the-analyzers.csp); Harlan Harris, Sean Murphy, Marck Vaisman; O’Reilly Media (2013) 
-
+  * [Data Science for Business](http://shop.oreilly.com/product/0636920028918.do); Foster Provost, Tom Fawcett; O’Reilly Media (2013)
+  * [Doing Data Science: Straight Talk from the Frontline](http://shop.oreilly.com/product/0636920028529.do); Cathy O'Neil, Rachel Schutt; O’Reilly Media (2013)
+  * [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do); Wes McKinney; O’Reilly Media (2012)
+  
+  
+  * [Building Data Science Teams](https://www.safaribooksonline.com/library/view/building-data-science/9781491940983/); Paco Nathan; O'Reilly Media (2015)
+  * [Analyzing the Analyzers](http://oreilly.com/data/free/analyzing-the-analyzers.csp); Harlan Harris, Sean Murphy, Marck Vaisman; O’Reilly Media (2013)
+  
 
   * [Introduction to Linear Algebra](http://math.mit.edu/linearalgebra); Gilbert Strang; Wellesley-Cambridge (2009)
   * [Elementary Linear Algebra](http://numbertheory.org/book/); Keith Matthews; Number Theory Web (1991)
@@ -76,8 +80,3 @@ The interested reader has plenty of "jumping" points from which to explore parti
   * [Linear Programming and Extensions](http://amazon.com/dp/0691059136); George Dantzig; Princeton (1963)
   * [Hidden Order](http://amazon.com/dp/0201442302); John Holland; Helix (1996)
   * [A Field Guide to Genetic Programming](http://amazon.com/dp/1409200736); Riccardo Poli, William Langdon, Nicholas McPhee; Lulu (2008)
-
-
-  * [Data Science for Business](http://shop.oreilly.com/product/0636920028918.do); Foster Provost, Tom Fawcett; O’Reilly Media (2013)
-  * [Doing Data Science: Straight Talk from the Frontline](http://shop.oreilly.com/product/0636920028529.do); Cathy O'Neil, Rachel Schutt; O’Reilly Media (2013)
-  * [Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do); Wes McKinney; O’Reilly Media (2012)

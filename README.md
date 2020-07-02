@@ -4,9 +4,9 @@ This is a companion wiki + code repository for the O'Reilly Media video [Just En
   * [preview trailer](http://youtu.be/TQ58cWgdCpA) on YouTube
   * [Jupyter notebooks with hands-on exercises from the video](https://github.com/ceteri/jem-docker/tree/master/notebook)
   * [Docker container](https://registry.hub.docker.com/u/ceteri/jem/)
-  * [news, updates, conf reviews, etc.](http://liber118.com/pxn/)
+  * [news, updates, conf reviews, etc.](https://derwen.ai/paco/)
   * [webcast](http://www.oreilly.com/pub/e/3114): *Computational Thinking: Just Enough Math*
-  * [JEM web site](http://justenoughmath.com/) (this site)
+  * [JEM web site](https://github.com/ceteri/jem-video/) (this site)
   * [LinkedIn group](https://www.linkedin.com/groups?gid=6725785)
 
 ---
